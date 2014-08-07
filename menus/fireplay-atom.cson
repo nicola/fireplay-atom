@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable fireplay-atom': 'fireplay-atom:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'fireplay-atom'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'fireplay-atom:toggle' }
+      ]
+    ]
+  }
+]

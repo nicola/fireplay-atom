@@ -1,0 +1,14 @@
+{
+  "name": "fireplay-atom",
+  "main": "./lib/fireplay-atom",
+  "version": "0.0.1",
+  "description": "Edit and deploy apps for FirefoxOS",
+  "activationEvents": ["fireplay-atom:toggle"],
+  "repository": "https://github.com/nicola/fireplay-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
